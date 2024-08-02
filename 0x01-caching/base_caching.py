@@ -32,4 +32,8 @@ class BaseCaching():
         """Retrieves an item by key.
         """
         error_msg = "get must be implemented in your cache class"
+<<<<<<< HEAD
         raise NotImplementedError(error_msg)
+=======
+        raise NotImplementedError(error_msg)
+>>>>>>> 317e96a2a5b7d9d3ea935f9eb02500ea2f70f863

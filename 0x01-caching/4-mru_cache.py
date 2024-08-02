@@ -36,4 +36,8 @@ class MRUCache(BaseCaching):
         """
         if key is not None and key in self.cache_data:
             self.cache_data.move_to_end(key, last=False)
+<<<<<<< HEAD
         return self.cache_data.get(key, None)
+=======
+        return self.cache_data.get(key, None)
+>>>>>>> 317e96a2a5b7d9d3ea935f9eb02500ea2f70f863
